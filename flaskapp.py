@@ -53,5 +53,5 @@ def status_talkingraspi():
 
 
 if __name__ == "__main__":
-     print "Connect to http://{}:5555 to controll TalkingRaspi !!".format(get_ip_address())
+    print "Connect to http://{}:5555 to controll TalkingRaspi !!".format(get_ip_address())
     app.run(host="0.0.0.0", port=5555, debug=False)
