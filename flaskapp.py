@@ -1,3 +1,4 @@
+import socket
 import subprocess
 from flask import Flask, render_template
 app = Flask(__name__)
@@ -5,10 +6,14 @@ app = Flask(__name__)
 # keep runnign process global
 proc = None
 
+def get_ip_address():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.connect(("8.8.8.8", 80))
+    return s.getsockname()[0]
 
 @app.route("/")
 def hello():
-    # return the web interface for raspi 
+    # return the web interface for raspi
     return render_template("index.html")
 
 
@@ -48,5 +53,5 @@ def status_talkingraspi():
 
 
 if __name__ == "__main__":
+     print "Connect to http://{}:5555 to controll TalkingRaspi !!".format(get_ip_address())
     app.run(host="0.0.0.0", port=5555, debug=False)
-view raw
