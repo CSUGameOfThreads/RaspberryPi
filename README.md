@@ -1,3 +1,4 @@
+![alt text](https://github.com/CSUGameOfThreads/RaspberryPi/blob/master/templates/static/img/abblogo.png "Andre Brandon Brian")
 # RaspiSecurity
 Home Surveillance with Raspberry with only ~100 lines of Python Code and ~150 lines of HTML.
 For technical details check the realted files below.
@@ -38,3 +39,5 @@ For technical details check the realted files below.
 ## ```utils.pyc```
   - Extra file from the utils.py
 ***
+
+![Alt Text](http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif)
