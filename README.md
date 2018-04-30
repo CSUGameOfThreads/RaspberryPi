@@ -10,6 +10,7 @@ For technical details check the realted files below.
 - ### static
 ***
 - Has the Fonts, img and styles frolder for the HTML files
+***
 
 ## ```conf.json```
 - Determines which email the pictures will be sent to
