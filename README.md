@@ -1,6 +1,6 @@
 ![alt text](https://github.com/CSUGameOfThreads/RaspberryPi/blob/master/static/img/abblogo.png "Andre Brandon Brian")
 # Raspberry Pi Security Camera
-Home Surveillance with Raspberry with only ~100 lines of Python Code and ~150 lines of HTML.
+Home Surveillance with Raspberry with a total of 342 lines of Python Code and 192 lines of HTML.
 For technical details check the realted files below.
 
 ## templates 
