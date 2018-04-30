@@ -3,13 +3,6 @@
 Home Surveillance with Raspberry with a total of 342 lines of Python Code and 192 lines of HTML.
 For technical details check the realted files below.
 
-## templates 
-- #### ```index.html```
-  - Landing page with a basic html code supported by jQuery in order to send on/off ajax requests to our server and to update the system status.
-- #### ```credits.html```
-  - Extra page with project credits and copyrights
-***
-
 ## static 
   - img
     - ```abblogo.png```
@@ -17,6 +10,13 @@ For technical details check the realted files below.
     - ```got.png```
   - styles
     - ```style.css```
+***
+
+## templates 
+- #### ```index.html```
+  - Landing page with a basic html code supported by jQuery in order to send on/off ajax requests to our server and to update the system status.
+- #### ```credits.html```
+  - Extra page with project credits and copyrights
 ***
 
 ## ```conf.json```
