@@ -1,0 +1,322 @@
+a {
+    color: black;
+    text-decoration: none !important;
+}
+  
+html, body {
+    width: 100%;
+    height: 100%;
+}
+  
+body {
+    font-family: "Trade Gothic LT Bold", sans-serif;
+    src: url('Fonts/Trade-Gothic-LT-Bold.ttf');
+    margin: 0px;
+    color: black; 
+}
+  
+video {
+    width: 100vw;
+}
+  
+.about-copy p {
+    font-size: 5vw;
+    line-height: 5.5vw;
+    padding: 8vw 15px; 
+}
+  
+header, .top-row {
+    z-index: 10;
+    padding-top: 2.65vw;
+    padding-bottom: 2.65vw;
+    border-bottom: 1.25vw solid black;
+    border-top: 1.25vw solid black;
+    position: relative; 
+}
+
+header .sg-logo, .top-row .sg-logo {
+    float: left;
+    line-height: 0;
+}
+
+header .sg-logo img, .top-row .sg-logo img {
+    width: 13vw; 
+}
+
+header .tri-logo, .top-row .tri-logo {
+    float: right;
+}
+
+header .tri-logo img, .top-row .tri-logo img {
+    width: 20vw;
+}
+  
+.main-text, .links {
+    font-size: 14vw;
+    line-height: .85em;
+    width: 100%;
+    overflow: hidden;
+    text-transform: uppercase;
+    letter-spacing: -0.6vw;
+}
+
+.main-text span, .links span {
+    text-align: center;
+    display: inline-block; 
+}
+
+.main-text .row, .links .row {
+    border-bottom: 1.25vw solid black;
+    white-space: nowrap; 
+}
+
+.main-text .row.flash, .links .row.flash {
+    color: white; 
+}
+  
+.links {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: white;
+    z-index: 20; 
+}
+
+.links a, .menu a {
+    display: block; 
+}
+
+.links button {
+    display: block;
+    background-blend-mode: inherit;
+    background: white;
+    background-color: white;
+    border: white;
+}
+    
+.links .row:hover {
+    background: black; 
+}
+    
+.links button:hover, .links a:hover {
+    background: black;
+    color: white;
+    display: block; 
+}
+  
+.links {
+    border-top: 1.25vw solid black; 
+}
+  
+.inner-page .inner-page-heading {
+    border-bottom: 1.25vw solid black;
+    background: black; 
+}
+
+.inner-page h1 {
+    font-size: 6vw;
+    line-height: 1em;
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+    margin: 0; 
+}
+
+.credits-content {
+    margin: 6vw 0; 
+}
+
+.inner-page .credits-content p, .inner-page .credits-content span {
+    margin-bottom: 3vw;
+    list-style: none;
+    font-size: 3vw;
+    line-height: 1.2em; 
+}
+
+.inner-page .credits-content p a, .inner-page .credits-content span a {
+    color: white; 
+}
+
+@media (max-width: 768px) {
+    .inner-page .credits-content p, .inner-page .credits-content span {
+        font-size: 6vw;
+        margin-bottom: 6vw; 
+    } 
+}
+
+.inner-page .credits-content .uppercase {
+    text-transform: uppercase;
+    display: block; 
+}
+
+.inner-page .credits-content span {
+    margin: 0; 
+}
+
+.inner-page .credits-content p:first-child {
+    margin-top: 3vw; 
+}
+
+@media (max-width: 768px) {
+    .inner-page .credits-content p:first-child {
+        margin-top: 1.5vw; 
+    } 
+}
+
+.inner-page h2, .inner-page h3 {
+    font-size: 6vw;
+    line-height: 1em;
+    margin: 0;
+    text-transform: uppercase; 
+}
+  
+.credits-content p a {
+    color: black !important;
+    text-decoration: underline !important; 
+}
+  
+footer {
+    position: relative;
+    z-index: 10;
+    color: white;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+    background: black; 
+}
+
+footer ul {
+    padding: 0;
+    margin: 0; 
+}
+
+footer h5, footer li {
+    font-size: 4vw;
+    line-height: 1em;
+    list-style: none;
+    margin: 0; 
+}
+
+@media (max-width: 768px) {
+    footer h5, footer li {
+        font-size: 6vw; 
+    } 
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer li:first-of-type {
+    border-bottom: .2vw solid white; 
+}
+
+footer .footer-name h5 span {
+    display: inline-block;
+    border-bottom: .2vw solid white; 
+}
+
+footer .main-footer {
+    position: relative;
+}
+
+footer .sg-network {
+    position: absolute;
+    bottom: 0;
+    padding: 0 3vw 1vw; 
+}
+ 
+footer .sg-network .footer-info {
+    float: left;
+}
+
+footer .sg-network .footer-info:last-of-type {
+    width: 400px;
+    max-width: 50%;
+    padding-left: 3em;
+    font-size: .8em; 
+}
+
+footer .sg-network .footer-info:last-of-type a {
+    color: inherit; 
+}
+
+@media (min-width: 2000px) {
+    footer .sg-network .footer-info:last-of-type {
+        width: 600px; 
+    } 
+}
+
+@media (max-width: 768px) {
+    footer .sg-network .footer-info:last-of-type {
+        font-size: .6em;
+        padding-left: 1em; 
+    } 
+}
+
+@media (max-width: 768px) {
+    footer .sg-network {
+        position: static;
+        margin-top: 4em; 
+    } 
+}
+
+footer .footer-bottom-info {
+    margin-top: 5vw; 
+}
+
+footer .footer-bottom-info h5 {
+    font-size: .8em;
+    margin-bottom: .4em;
+    text-decoration: underline; 
+}
+
+      
+footer .footer-bottom-info span {
+    font-size: 10px;
+    line-height: 1.2em;
+    width: 110px;
+    display: inline-block;
+    padding-top: .6em; 
+}
+
+footer .footer-bottom-info .footer-info {
+    float: left;
+    padding-right: 3em; 
+}
+
+footer .footer-bottom-info .footer-info img {
+    vertical-align: top;
+    padding-top: .6em;
+    padding-right: .6em;
+    margin-bottom: .6em;
+}
+
+@media (max-width: 768px) {
+    footer .footer-bottom-info h5 {
+        margin-top: 4em; 
+    } 
+}
+
+@media (max-width: 768px) {
+    footer .footer-name {
+        margin-bottom: 3vw; 
+    }
+      footer ul {
+        margin-top: 3vw; 
+    } 
+}
+  
+.container-fluid {
+    padding-left: 3vw;
+    padding-right: 3vw; 
+}
+  
+.row {
+    margin-left: -3vw;
+    margin-right: -3vw; 
+}
+  
+[class*="col-"] {
+    padding-left: 3vw !important;
+    padding-right: 3vw !important; 
+}
