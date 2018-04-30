@@ -4,12 +4,12 @@ For technical details check the realted files below.
 
 # templates 
 - ### ```index.html```
-- Landing page with a basic html code supported by jQuery in order to send on/off ajax requests to our server and to update the system status.
+  - Landing page with a basic html code supported by jQuery in order to send on/off ajax requests to our server and to update the system status.
 - ### ```credits.html```
-- Extra page with project credits and copyrights
+  - Extra page with project credits and copyrights
 - ### static
 ***
-↳ Has the Fonts, img and styles frolder for the HTML files
+      ↳ Has the Fonts, img and styles frolder for the HTML files
 ***
 
 ## ```conf.json```
