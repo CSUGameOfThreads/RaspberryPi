@@ -9,8 +9,7 @@ html, body {
 }
   
 body {
-    font-family: "Trade Gothic LT Bold", sans-serif;
-    src: url('Fonts/Trade-Gothic-LT-Bold.ttf');
+    font-family: 'Libre Franklin', sans-serif;
     margin: 0px;
     color: black; 
 }
