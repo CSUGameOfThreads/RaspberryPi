@@ -13,7 +13,7 @@ For technical details check the realted files below.
 ## static 
   - img
     - ```abblogo.png```
-    - ```csu.png```
+    - ```csulogo.png```
     - ```got.png```
   - styles
     - ```style.css```
