@@ -8,6 +8,7 @@ For technical details check the realted files below.
 - ### ```credits.html```
 - Extra page with project credits and copyrights
 - ### static
+***
 - Has the Fonts, img and styles frolder for the HTML files
 
 ## ```conf.json```
