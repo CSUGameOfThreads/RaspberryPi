@@ -15,10 +15,6 @@ body {
     color: black; 
 }
   
-video {
-    width: 100vw;
-}
-  
 .about-copy p {
     font-size: 5vw;
     line-height: 5.5vw;
