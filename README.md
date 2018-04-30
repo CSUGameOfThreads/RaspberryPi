@@ -3,13 +3,15 @@
 Home Surveillance with Raspberry with only ~100 lines of Python Code and ~150 lines of HTML.
 For technical details check the realted files below.
 
-# templates 
-- ### ```index.html```
+## templates 
+- #### ```index.html```
   - Landing page with a basic html code supported by jQuery in order to send on/off ajax requests to our server and to update the system status.
-- ### ```credits.html```
+- #### ```credits.html```
   - Extra page with project credits and copyrights
-- ### static
-  ↳ Has the Fonts, img and styles frolder for the HTML files
+- #### static
+  - Fonts
+  - img
+  - styles
 ***
 
 ## ```conf.json```
