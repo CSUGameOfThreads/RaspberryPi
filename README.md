@@ -1,4 +1,4 @@
-![alt text](https://github.com/CSUGameOfThreads/RaspberryPi/blob/master/templates/static/img/abblogo.png "Andre Brandon Brian")
+![alt text](https://github.com/CSUGameOfThreads/RaspberryPi/blob/master/static/img/abblogo.png "Andre Brandon Brian")
 # Raspberry Pi Security Camera
 Home Surveillance with Raspberry with only ~100 lines of Python Code and ~150 lines of HTML.
 For technical details check the realted files below.
@@ -8,9 +8,13 @@ For technical details check the realted files below.
   - Landing page with a basic html code supported by jQuery in order to send on/off ajax requests to our server and to update the system status.
 - #### ```credits.html```
   - Extra page with project credits and copyrights
-- #### static
-  - Fonts
+***
+
+## static 
   - img
+    - ```abblogo.png```
+    - ```csu.png```
+    - ```got.png```
   - styles
     - ```style.css```
 ***
