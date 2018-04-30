@@ -13,7 +13,6 @@ For technical details check the realted files below.
   - img
   - styles
     - ```style.css```
-    - ```bootstrap.min.css```
 ***
 
 ## ```conf.json```
